@@ -1,0 +1,6 @@
+@mixin loader {
+  &.loader {
+    animation: spin 1500ms infinite linear;
+    animation-timing-function: cubic-bezier(0.25, 0.5, 0.5, 1);
+  }
+}

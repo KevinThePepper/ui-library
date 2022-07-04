@@ -1,0 +1,1 @@
+{"version":3,"file":"CardImage.props.d.ts","sourceRoot":"","sources":["../../../../../src/components/views/Card/CardImage/CardImage.props.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,UAAU,CAAC;AACtC,OAAO,EAAE,sBAAsB,EAAE,MAAM,aAAa,CAAC;AAErD,MAAM,WAAW,eAAgB,SAAQ,UAAU;CAAI;AAEvD,aAAK,cAAc,GAAG,sBAAsB,CAAC,eAAe,CAAC,CAAC;AAC9D,eAAe,cAAc,CAAC"}

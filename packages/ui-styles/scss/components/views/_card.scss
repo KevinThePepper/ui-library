@@ -1,0 +1,38 @@
+@import "../../lib/colors";
+@import "../../lib/fonts";
+@import "../../lib/mixins";
+@import "../../lib/variables";
+
+@mixin card {
+    &.card {
+        @include border-radius;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        display: inline-block;
+        margin: 0.5em;
+        min-width: 300px;
+        transition: all $transition-time ease-in-out;
+
+        @at-root {
+            a#{&} {
+                cursor: pointer;
+
+                &:hover {
+                    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+                }
+            }
+        }
+
+        .image {
+            width: 100%;
+        }
+
+        .content-container {
+            padding: 1em;
+        }
+
+        &.inverted {
+            color: $color-primary-inverted;
+            background-color: $color-new-navy;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"Button.props.d.ts","sourceRoot":"","sources":["../../../../src/components/elements/Button/Button.props.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,qBAAqB,EAAE,MAAM,cAAc,CAAC;AAErD,MAAM,CAAC,OAAO,WAAW,WAAY,SAAQ,qBAAqB;IAEhE,OAAO,CAAC,EAAE,OAAO,CAAC;IAGlB,SAAS,CAAC,EAAE,OAAO,CAAC;IAGpB,KAAK,EAAE,MAAM,CAAC;IAGd,OAAO,CAAC,EAAE,OAAO,CAAC;CACnB"}

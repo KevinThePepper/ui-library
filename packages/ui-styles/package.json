@@ -1,0 +1,25 @@
+{
+  "name": "@engins/ui-styles",
+  "version": "1.0.0",
+  "description": "Styling for the ENGINS React component library",
+  "author": "Kevin Shelley <kevin.shelley@pm.me>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "sass": "node-sass scss -o dist --output-style compressed",
+    "sass-watch": "yarn sass --watch",
+    "build": "yarn sass"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

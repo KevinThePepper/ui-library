@@ -1,0 +1,1 @@
+{"version":3,"file":"Container.props.d.ts","sourceRoot":"","sources":["../../../../src/components/elements/Container/Container.props.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,EAAE,aAAa,EAAE,MAAM,cAAc,CAAC;AAE7C,MAAM,WAAW,eAAe;IAE5B,OAAO,CAAC,EAAE,MAAM,GAAG,KAAK,CAAC,SAAS,CAAC;CACtC;AAED,MAAM,CAAC,OAAO,WAAW,cAAe,SAAQ,aAAa,CAAC,eAAe,CAAC;CAAG"}

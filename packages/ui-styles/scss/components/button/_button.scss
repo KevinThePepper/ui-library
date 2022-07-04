@@ -1,0 +1,64 @@
+@import "../../lib/colors";
+@import "../../lib/fonts";
+@import "../../lib/mixins";
+
+@mixin button {
+  &.button {
+    // general button styling
+    font: $font-paragraph;
+    color: $color-white;
+    min-height: 40px;
+    min-width: 150px;
+    font-size: 1em;
+    @include border-radius;
+    border: none;
+    transition: background-color 0.15s ease-in;
+
+    cursor: pointer;
+
+    &.primary {
+      background-color: $color-kewl-blue;
+
+      &:hover {
+        background-color: darken($color-kewl-blue, 10%);
+      }
+    }
+
+    &.secondary {
+      background-color: $color-grey-1;
+
+      &:hover {
+        background-color: lighten($color-grey-1, 10%);
+      }
+
+      // dark theme
+      &.inverted {
+        background-color: transparent;
+        color: $color-white;
+        border: solid 2px $color-white;
+
+        &:hover {
+          background-color: $color-kewl-blue;
+          border: none;
+        }
+      }
+    }
+
+    &.disabled {
+      background-color: lighten($color-grey-2, 50%);
+      color: $color-white;
+
+      &:hover {
+        background-color: lighten($color-grey-2, 50%);
+        cursor: not-allowed;
+      }
+    }
+
+    &.loading {
+      svg.fa-circle-notch {
+        animation: spin 1500ms infinite linear;
+        animation-timing-function: cubic-bezier(0.25, 0.5, 0.5, 1);
+      }
+    }
+  }
+}

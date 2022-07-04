@@ -1,0 +1,26 @@
+{
+  "name": "@engins/ui",
+  "version": "1.0.0",
+  "description": "ENGINS React component library",
+  "author": "Kevin Shelley <kevin.shelley@pm.me>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "src/__tests__"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rm -rf dist/ && tsc"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "clsx": "^1.1.1",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38"
+  }
+}
