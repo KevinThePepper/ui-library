@@ -4,5 +4,6 @@ export default interface ButtonProps extends IButtonHTMLAttributes {
     secondary?: boolean;
     label: string;
     loading?: boolean;
+    ripple?: boolean;
 }
 //# sourceMappingURL=Button.props.d.ts.map

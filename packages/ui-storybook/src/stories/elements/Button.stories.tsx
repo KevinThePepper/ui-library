@@ -24,6 +24,10 @@ Primary.args = {
   loading: false,
   secondary: false,
   disabled: false,
+  ripple: true,
+  onClickOrEnter: (event) => {
+    console.log(event.type);
+  },
 };
 
 export const Secondary = Template.bind({});

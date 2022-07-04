@@ -12,4 +12,7 @@ export default interface ButtonProps extends IButtonHTMLAttributes {
 
   /** Whether this button is loading. */
   loading?: boolean;
+
+  /** Whether to show the ripple animation on click. Default is `true`. */
+  ripple?: boolean;
 }

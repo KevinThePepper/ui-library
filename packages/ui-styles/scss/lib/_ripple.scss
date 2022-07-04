@@ -1,0 +1,18 @@
+@import "./colors";
+
+@mixin ripple($ripple-color: $color-kewl-blue, $ripple-animation-time: 600ms) {
+  .ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple $ripple-animation-time linear;
+    background-color: $ripple-color;
+  }
+
+  @keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+}

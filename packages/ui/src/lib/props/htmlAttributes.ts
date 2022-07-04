@@ -11,7 +11,7 @@ import { ENTER_KEY } from "./constants";
 // On-click or enter custom event.
 // ============================================================================
 
-export const isKeyboardEvent = (event: Event): event is KeyboardEvent => {
+export const isKeyboardEvent = (event: any): event is KeyboardEvent => {
   return "key" in event;
 };
 
@@ -48,7 +48,7 @@ export interface OnClickOrEnterProps<TElement extends HTMLElement> {
  * @param event The event emitted from the key press.
  * @param cb The function to call if the user presses the `Enter` key.
  */
-export const onClickOrEnterDefault = <TElement extends Element>(
+export const onClickOrEnterDefault = <TElement extends HTMLElement>(
   event: KeyboardEvent<TElement> | MouseEvent<TElement>,
   cb?: IOnClickOrEnterHandler<TElement>
 ) => {
